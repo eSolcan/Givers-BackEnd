@@ -1,0 +1,7 @@
+runtime: java
+env: flex
+
+handlers:
+- url: /app
+  http_headers:
+    Access-Control-Allow-Origin: "*"
